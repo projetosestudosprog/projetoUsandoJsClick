@@ -20,7 +20,7 @@ body {
 
 h1 {
     padding: 10px 0 10px 20px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
     font-size: 4.0rem;
 }
@@ -42,7 +42,7 @@ ul {
     outline: none;
     font-weight: 300;
     font-size: 1.5rem;
-    padding: 20px 10px;
+    padding: 10px 8px;
     color: #fff;
     list-style-type: none;
     cursor: pointer;
@@ -58,24 +58,24 @@ main {
 }
 
 .tela-ativada {
-    background-image: url("img/carro.jpg");
+    background-image: url("img/carroVersao1.jpg");
 
 }
 
 .imagem-carro {
 
-    background-image: url("./img/carro.jpg");
+    background-image: url("./img/carroVersao1.jpg");
 }
 .imagem-casa {
-    background-image: url("./img/casa.jpg");
+    background-image: url("./img/casaVersao1.jpg");
 
 }
 .imagem-familia {
-    background-image: url("./img/familia.jpg");
+    background-image: url("./img/familiaVersao-1.jpg");
 
 }
 .imagem-pai-e-filha {
-    background-image: url("./img/paifilha.jpg");
+    background-image: url("./img/paifilhaVersao1.jpg");
 
 }
 
