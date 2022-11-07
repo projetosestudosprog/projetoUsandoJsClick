@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: #000;
+    
+}
+
+
+h1 {
+    padding: 10px 0 10px 20px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 4.0rem;
+}
+
+ul {
+    padding-left: 20px;
+
+}
+
+.botao-principal {
+    display: flex;
+    margin: 10px 0;
+}
+
+.botao-principal-click {
+    width: 100px;
+    background: transparent;
+    border-radius: 100% 0% 100% 0% / 18% 79% 21% 82% ;
+    outline: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 20px 10px;
+    color: #fff;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.tela-ativada {
+    background-image: url("img/carro.jpg");
+
+}
+
+.imagem-carro {
+
+    background-image: url("./img/carro.jpg");
+}
+.imagem-casa {
+    background-image: url("./img/casa.jpg");
+
+}
+.imagem-familia {
+    background-image: url("./img/familia.jpg");
+
+}
+.imagem-pai-e-filha {
+    background-image: url("./img/paifilha.jpg");
+
+}
+
+
+
