@@ -20,7 +20,7 @@ body {
 
 h1 {
     padding: 10px 0 10px 20px;
-    color: #000;
+    color: #f8f9fa;
     font-weight: 400;
     font-size: 4.0rem;
 }
@@ -33,20 +33,36 @@ ul {
 .botao-principal {
     display: flex;
     margin: 10px 0;
+    max-width: 100px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
 }
 
 .botao-principal-click {
     width: 100px;
     background: transparent;
-    border-radius: 100% 0% 100% 0% / 18% 79% 21% 82% ;
+    border-radius: 5px;
+    border: 1px solid #f8f9fa;
     outline: none;
     font-weight: 300;
     font-size: 1.5rem;
     padding: 10px 8px;
-    color: #fff;
+    color: #f8f9fa;
     list-style-type: none;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
+.botao-principal-click:hover {
+    border: 1px solid #212529;
+    background-color: #212529;
+    border-radius: 10px;
+}
+
+.texto-botao-familia {
+    color: #212529;
+}
+
 
 main {
     width: 100%;
@@ -81,3 +97,15 @@ main {
 
 
 
+@media (max-width: 447px) {
+    .tela-ativada {
+        background-image:url("img/carro-667.jpg");
+    }
+
+    .imagem-carro {
+
+        background-image: url("./img/carro-667.jpg");
+    }
+
+    
+}

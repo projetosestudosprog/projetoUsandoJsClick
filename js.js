@@ -1,5 +1,6 @@
 let listaBotoes = document.querySelectorAll(".botao-principal")
 let tela = document.querySelector("main")
+let textoMeuProjeto = document.querySelector("h1")
 
 listaBotoes.forEach(botao=>{
     botao.addEventListener("click",()=>{
@@ -11,6 +12,8 @@ listaBotoes.forEach(botao=>{
             tela.classList.remove("imagem-familia")
             tela.classList.remove("imagem-pai-e-filha")
             tela.classList.remove("imagem-casa")
+            textoMeuProjeto.classList.remove("texto-botao-familia")
+
         }
 
         if(botaoPegarId === "botao-casa") {
@@ -19,6 +22,8 @@ listaBotoes.forEach(botao=>{
             tela.classList.remove("imagem-familia")
             tela.classList.remove("imagem-pai-e-filha")
             tela.classList.remove("imagem-carro")
+            textoMeuProjeto.classList.remove("texto-botao-familia")
+
         }
 
         
@@ -29,6 +34,8 @@ listaBotoes.forEach(botao=>{
             tela.classList.remove("imagem-casa")
             tela.classList.remove("carro")
             tela.classList.remove("imagem-pai-e-filha")
+            textoMeuProjeto.classList.add("texto-botao-familia")
+
         }
 
         if(botaoPegarId === "botao-pai-e-filha") {
@@ -36,6 +43,8 @@ listaBotoes.forEach(botao=>{
             tela.classList.add("imagem-pai-e-filha")
             tela.classList.remove("imagem-casa")
             tela.classList.remove("carro")
+            textoMeuProjeto.classList.remove("texto-botao-familia")
+
         }
         
         // let botaoClicadoId = `botao-${botaoPegarId}`
